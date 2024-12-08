@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:flutter_weather_app/weather_api_client.dart';
 
 void main(List<String> arguments) async {
-  if (arguments.length != 2) {
+  if (arguments.length != 3) {
     print('Syntax error: dart <city>');
     return;
   }
